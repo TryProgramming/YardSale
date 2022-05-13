@@ -8,16 +8,23 @@
 	--very-light-pink: #c7c7c7;
 	--text-input-field: #f7f7f7;
 	--hospital-green: #acd9b2;
+	--sm: 14px;
+	--md: 16px;
+	--lg: 18px;
 }
 
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	border: none;
 	outline: none;
+	border: none;
 	text-decoration: none;
 	transition: 0.5s ease;
+}
+
+html {
+	font-size: 62.5%;
 }
 
 body {
