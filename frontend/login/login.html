@@ -1,0 +1,44 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Login</title>
+		<link rel="stylesheet" href="./login.css" />
+	</head>
+	<body>
+		<div class="login">
+			<div class="form-container">
+				<img src="../assets/logos/logo_yard_sale.svg" alt="logo" class="logo" />
+				<form action="" class="form">
+					<label for="email" class="label">Email Address</label>
+					<input
+						class="input input-password"
+						type="email"
+						id="email"
+						name="email"
+						required
+						autocomplete="email"
+						placeholder="example@gmail.com"
+					/>
+
+					<label for="password" class="label">Password</label>
+					<input
+						class="input input-password"
+						type="password"
+						id="password"
+						name="password"
+						required
+						placeholder="********"
+					/>
+					<input type="submit" value="Login" class="primary-button login-button" />
+					<a href="" class="forgot">forgot my password</a>
+				</form>
+				<button class="secondary-button signup-button" type="button">Sign Up</button>
+			</div>
+		</div>
+	</body>
+</html>
